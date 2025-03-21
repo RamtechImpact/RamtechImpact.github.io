@@ -5,6 +5,9 @@ body {
     background-color: white; /* Changed to white */
     color: #282464; /* Changed default text color */
 }
+p {
+    line-height: 150%;
+}
 
 header {
     text-align: center;
@@ -65,10 +68,28 @@ main {
 
 #inclusion p {
     grid-column: 1; /* Text goes in the first column */
+    word-spacing: 100%;
+}
+
+#education {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: text and graphs */
+    grid-gap: 20px;
+}
+
+#education p {
+    grid-column: 2; /* Text goes in the first column */
+    word-spacing: 100%;
 }
 
 .graph-aside {
     grid-column: 2; /* Graphs go in the second column */
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between graphs */
+}
+
+.graph-aside-2 {
+    grid-column: 1; /* Graphs go in the second column */
     text-align: center;
     margin-bottom: 20px; /* Add some space between graphs */
 }
