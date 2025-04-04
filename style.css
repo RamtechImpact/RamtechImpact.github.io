@@ -20,6 +20,12 @@ h2{
 
     font-size: 200%;
 }
+h3{
+    margin-top: 40px;
+    font-family: BankGothic;
+    text-align: center;
+    font-size: 150%;
+}
 
 header {
     text-align: center;
@@ -92,8 +98,58 @@ main {
 }
 
 #inclusion p {
+    grid-column: 2; /* Text goes in the first column */
+    /*word-spacing: 130%;*/
+}
+#inclusion h2 {
+    grid-column: 2; /* Text goes in the first column */
+    /*word-spacing: 130%;*/
+}
+
+
+
+#summercamp {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: text and graphs */
+    grid-gap: 20px;
+    text-align: center;
+
+}
+
+#summercamp p {
     grid-column: 1; /* Text goes in the first column */
-    word-spacing: 130%;
+    /*word-spacing: 130%;*/
+}
+
+#wiki {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: text and graphs */
+    grid-gap: 20px;
+    text-align: center;
+
+}
+
+#wiki p {
+    grid-column: 1; /* Text goes in the first column */
+    /*word-spacing: 130%;*/
+}
+
+
+#curriculum {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: text and graphs */
+    grid-gap: 20px;
+    text-align: center;
+
+}
+
+#curriculum p {
+    grid-column: 2; /* Text goes in the first column */
+    /*word-spacing: 130%;*/
+}
+#curriculum h2 {
+    grid-column: 2; /* Text goes in the first column */
+    /*word-spacing: 130%;*/
 }
 
 #education {
@@ -106,14 +162,54 @@ main {
 
 #education h2 {
     grid-column: 2;
-    word-spacing: 100%;
+    /*word-spacing: 100%;*/
 }
 
 #education p {
     grid-column: 2; /* Text goes in the first column */
-    word-spacing: 100%;
+    /*word-spacing: 100%;*/
 }
 
+#offseason {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: text and graphs */
+    grid-gap: 20px;
+    text-align: center;
+
+}
+
+#offseason h2 {
+    grid-column: 1;
+    /*word-spacing: 100%;*/
+}
+
+#offseason p {
+    grid-column: 1; /* Text goes in the first column */
+    /*word-spacing: 100%;*/
+}
+
+
+#sparktech {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: text and graphs */
+    grid-gap: 20px;
+    text-align: center;
+
+}
+
+#sparktech h2 {
+    grid-column: 2;
+    /*word-spacing: 100%;*/
+}
+
+#sparktech p {
+    grid-column: 2; /* Text goes in the first column */
+    /*word-spacing: 100%;*/
+}
+
+#instagram-button {
+    
+}
 .graph-aside {
     grid-column: 2; /* Graphs go in the second column */
     text-align: center;
@@ -157,4 +253,35 @@ main {
 
 #links a:hover {
     text-decoration: underline;
+}
+
+button{
+    background: #ffd404;
+    color: #282464;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#dropdown {
+    display: inline;
+    margin-top: 1rem;
+}
+
+.dropdown-content img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0.5rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000;
 }
