@@ -207,9 +207,6 @@ main {
     /*word-spacing: 100%;*/
 }
 
-#instagram-button {
-    
-}
 .graph-aside {
     grid-column: 2; /* Graphs go in the second column */
     text-align: center;
@@ -229,6 +226,8 @@ main {
 .graph-image {
     max-width: 100%;
     height: auto;
+    cursor: pointer;
+
 }
 
 .graph-aside p {
@@ -285,3 +284,4 @@ video {
     height: auto;
     border: 2px solid #000;
 }
+
